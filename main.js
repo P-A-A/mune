@@ -2,10 +2,8 @@
 const defaultMenuItems = [
     {
         id: 1,
-        title: "بيتزا مارجريتا
-",
-        description: "صلصة طماطم، موزاريلا، ريحان
-.",
+        title: "بيتزا مارجريتا",
+        description: "صلصة طماطم، موزاريلا، ريحان.",
         price: "75 ج.م",
         category: "Pizza",
         tag: "الأكثر طلباً",
@@ -14,10 +12,8 @@ const defaultMenuItems = [
     },
     {
         id: 2,
-        title: "بيتزا بيبروني
-",
-        description: "بيبروني، موزاريلا، صلصة طماطم
-.",
+        title: "بيتزا بيبروني",
+        description: "بيبروني، موزاريلا، صلصة طماطم.",
         price: "90 ج.م",
         category: "Pizza",
         tag: "جديد",
@@ -379,3 +375,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
 });
+
