@@ -123,22 +123,69 @@ const menuSections = [
 // المتغيرات العامة
 let menuItems = [];
 
-// دالة لتحميل البيانات من ملف JSON
-async function loadMenuData() {
-    try {
-        const response = await fetch('menu-data.json');
-        if (response.ok) {
-            const data = await response.json();
-            console.log('✅ تم تحميل البيانات من ملف JSON:', data.length, 'عنصر');
-            return data;
-        } else {
-            throw new Error('❌ لم يتم العثور على ملف JSON');
+// دالة لإنشاء قائمة الأقسام ديناميكيًا من البيانات
+function getDynamicSections(items) {
+    const sectionMap = {};
+
+    items.forEach(item => {
+        if (!item.category) return; // تجاهل الأصناف بدون فئة
+        if (!sectionMap[item.category]) {
+            sectionMap[item.category] = {
+                id: item.category,
+                title: item.category, // يمكن استبداله باسم أجمل أو ترجمة
+                icon: "🍽️", // أي أيقونة عامة، يمكن تخصيص حسب الفئة
+                items: []
+            };
         }
-    } catch (error) {
-        console.log('⚠️ استخدام البيانات الافتراضية:', error.message);
-        return defaultMenuItems;
-    }
+        sectionMap[item.category].items.push(item);
+    });
+
+    return Object.values(sectionMap);
 }
+
+// دالة لإنشاء القسم HTML
+function createMenuSectionDynamic(section) {
+    const itemsHtml = section.items.map(item => createMenuItemCard(item)).join('');
+
+    return `
+        <section class="menu-section" id="section-${section.id}" aria-label="${section.title}">
+            <div class="section-header">
+                <div class="section-icon">${section.icon}</div>
+                <h2 class="section-title">${section.title}</h2>
+                <span class="section-count">${section.items.length} صنف</span>
+            </div>
+            <div class="menu-grid">
+                ${itemsHtml}
+            </div>
+        </section>
+    `;
+}
+
+// دالة عرض الأقسام ديناميكيًا
+function renderMenuSectionsDynamic(items) {
+    const menuSectionsContainer = document.getElementById('menuSections');
+    
+    if (!items || items.length === 0) {
+        menuSectionsContainer.innerHTML = `
+            <div class="empty-state">
+                <div class="empty-state-icon">🍽️</div>
+                <h3>القائمة فارغة</h3>
+                <p>لا توجد أصناف متاحة حالياً. يرجى المحاولة لاحقاً.</p>
+            </div>
+        `;
+        return;
+    }
+
+    const dynamicSections = getDynamicSections(items);
+    let sectionsHtml = '';
+
+    dynamicSections.forEach(section => {
+        sectionsHtml += createMenuSectionDynamic(section);
+    });
+
+    menuSectionsContainer.innerHTML = sectionsHtml;
+}
+
 
 // دالة لإنشاء بطاقة صنف
 function createMenuItemCard(item) {
@@ -375,4 +422,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
 });
+
 
