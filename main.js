@@ -2,23 +2,27 @@
 const defaultMenuItems = [
     {
         id: 1,
-        title: "كشري التحرير الكلاسيكي",
-        description: "وصفة كشري التحرير الأصلية منذ ١٩٧٥ - أرز، معكرونة، عدس، حمص، صلصة طماطم، ثوم مقلي، وبصل مقرمش.",
-        price: "٣٠ ج.م",
-        category: "koshari",
+        title: "بيتزا مارجريتا
+",
+        description: "صلصة طماطم، موزاريلا، ريحان
+.",
+        price: "75 ج.م",
+        category: "Pizza",
         tag: "الأكثر طلباً",
         tagType: "popular",
-        image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+        image: "https://images.pexels.com/photos/845798/pexels-photo-845798.jpeg"
     },
     {
         id: 2,
-        title: "كشري عائلي كبير",
-        description: "وجبة كشري تكفي ٤-٥ أشخاص. تحتوي على أرز، معكرونة، عدس، حمص، صلصة طماطم غنية، ثوم، بصل، وليمون.",
-        price: "١٢٠ ج.م",
-        category: "koshari",
+        title: "بيتزا بيبروني
+",
+        description: "بيبروني، موزاريلا، صلصة طماطم
+.",
+        price: "90 ج.م",
+        category: "Pizza",
         tag: "جديد",
         tagType: "new",
-        image: "https://images.unsplash.com/photo-1563379091339-03246963d9d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+        image: "https://images.pexels.com/photos/4109111/pexels-photo-4109111.jpeg"
     },
     {
         id: 3,
@@ -373,4 +377,5 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
         document.body.appendChild(debugBtn);
     }
+
 });
