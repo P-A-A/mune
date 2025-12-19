@@ -30,6 +30,16 @@
     "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   },
   {
+    "id": 3,
+    "title": "كشري اسبايسي بالجبنه",
+    "description": "كشري مع صلصة حارة خاصة وكمية إضافية من الثوم والبصل المقلي. للمحبيين الطعم الحار المميز.",
+    "price": "500 ج.م",
+    "category": "koshari",
+    "tag": "حار",
+    "tagType": "spicy",
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+  },
+  {
     "id": 4,
     "title": "كشري صغير",
     "description": "وجبة كشري صغيرة مناسبة للأطفال أو الوجبات الخفيفة. تحتوي على جميع مكونات الكشري الكلاسيكي.",
@@ -147,3 +157,4 @@
   }
 
 ]
+
