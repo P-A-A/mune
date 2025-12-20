@@ -9,6 +9,16 @@
     "tagType": "popular",
     "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   },
+    {
+    "id": 1,
+    "title": "كشري التحرير الكلاسيكي",
+    "description": "وصفة كشري التحرير الأصلية منذ ١٩٧٥ - أرز، معكرونة، عدس، حمص، صلصة طماطم، ثوم مقلي، وبصل مقرمش.",
+    "price": "٣٠ ج.م",
+    "category": "koshari",
+    "tag": "الأكثر طلباً",
+    "tagType": "popular",
+    "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+  },
   {
     "id": 2,
     "title": "كشري عائلي كبير",
@@ -130,3 +140,4 @@
     "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   }
 ]
+
