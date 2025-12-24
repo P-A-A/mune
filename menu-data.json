@@ -103,7 +103,7 @@
     "id": 12,
     "title": "عصير ليمون بالنعناع",
     "description": "عصير ليمون طازج مع أوراق النعناع المنعشة",
-    "price": "١٥ ج.م",
+    "price": "١١٠٥ ج.م",
     "category": "drinks",
     "tag": "منعش",
     "tagType": "new",
@@ -113,11 +113,12 @@
     "id": 13,
     "title": "كنافة بالجبن",
     "description": "كنافة هشة محشوة بالجبن البلدي الطري",
-    "price": "٤٠ ج.م",
+    "price": "١٠٠ ج.م",
     "category": "desserts",
     "tag": "جديد",
     "tagType": "new",
     "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   }
 ]
+
 
