@@ -111,6 +111,16 @@
   },
   {
     "id": 13,
+    "title": "لازم نعلم عليكم يعني",
+    "description": "متبصش ع وصف شكلك وحش والله",
+    "price": "مش بفلوش صدقني محتاجه ناس بتفهم بس",
+    "category": "drinks",
+    "tag": "زبي منجا",
+    "tagType": "new",
+    "image": "https://i.ibb.co/gM0XqRX2/x.jpg"
+  },
+  {
+    "id": 14,
     "title": "كنافة بالجبن",
     "description": "كنافة هشة محشوة بالجبن البلدي الطري",
     "price": "١٠٠ ج.م",
@@ -120,5 +130,6 @@
     "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
   }
 ]
+
 
 
