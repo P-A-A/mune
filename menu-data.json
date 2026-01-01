@@ -111,6 +111,36 @@
   },
   {
     "id": 13,
+    "title": "كيس عيش محمص",
+    "description": "قطع خبز شامي محمصة ومتبلة بخلطة التحرير الخاصة، مقرمشة ومثالية بجانب طبق الكشري.",
+    "price": "١٠ ج.م",
+    "category": "extras",
+    "tag": "الأكثر مبيعاً",
+    "tagType": "popular",
+    "image": "https://i.ibb.co/ksP0zjLP/x.jpg"
+  },
+  {
+    "id": 14,
+    "title": "طبق أرز بلبن عادي",
+    "description": "أرز بلبن غني وكريمي، محضر على الطريقة التقليدية ومبرد ليقدم تحلية مثالية بعد الكشري.",
+    "price": "٢٠ ج.م",
+    "category": "desserts",
+    "tag": null,
+    "tagType": "",
+    "image": "https://i.ibb.co/7tVPWCT1/x.jpg"
+  },
+  {
+    "id": 15,
+    "title": "طبق أرز بلبن فرن",
+    "description": "أرز بلبن مطهو داخل الفرن ليأخذ طبقة وجه ذهبية محمرة وطعم غني ومميز.",
+    "price": "٢٥ ج.م",
+    "category": "desserts",
+    "tag": "مميز",
+    "tagType": "popular",
+    "image": "https://i.ibb.co/ZpRtXvNW/x.jpg"
+  },
+  {
+    "id": 16,
     "title": "كنافة بالجبن",
     "description": "كنافة هشة محشوة بالجبن البلدي الطري",
     "price": "١٠٠ ج.م",
@@ -120,6 +150,7 @@
     "image": "https://i.ibb.co/chDsSpZ0/x.jpg"
   }
 ]
+
 
 
 
