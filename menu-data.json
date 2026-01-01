@@ -140,6 +140,26 @@
     "image": "https://i.ibb.co/ZpRtXvNW/x.jpg"
   },
   {
+    "id": 9,
+    "title": "مياه معدنية",
+    "description": "زجاجة مياه معدنية طبيعية باردة ومنعشة.",
+    "price": "٧ ج.م",
+    "category": "drinks",
+    "tag": null,
+    "tagType": "",
+    "image": "https://png.pngtree.com/png-vector/20240913/ourlarge/pngtree-mineral-water-bottle-png-image_13600124.png"
+  },
+  {
+    "id": 10,
+    "title": "بيبسي كانز",
+    "description": "عبوة بيبسي كولا بابلز المنعشة، الحجم القياسي.",
+    "price": "١٥ ج.م",
+    "category": "drinks",
+    "tag": "الأكثر طلباً",
+    "tagType": "popular",
+    "image": "https://cdn.mafrservices.com/pim-content/EGY/media/product/626935/1728898803/626935_main.jpg?im=Resize=400"
+  },
+  {
     "id": 16,
     "title": "كنافة بالجبن",
     "description": "كنافة هشة محشوة بالجبن البلدي الطري",
@@ -150,6 +170,7 @@
     "image": "https://i.ibb.co/chDsSpZ0/x.jpg"
   }
 ]
+
 
 
 
