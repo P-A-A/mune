@@ -209,7 +209,7 @@ function initializeEvents() {
     const orderBtn = document.getElementById('orderBtn');
     if (orderBtn) {
         orderBtn.addEventListener('click', () => {
-            alert('مرحباً! يمكنك الطلب عن طريق الاتصال بنا على: ٠١٠٠١٢٣٤٥٦٧ أو عبر تطبيق واتساب.');
+            alert('مرحباً! يمكنك الطلب عن طريق الاتصال بنا على: 01212494501 أو عبر تطبيق واتساب.');
         });
         console.log('✅ تم تهيئة زر الطلب');
     }
@@ -314,3 +314,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
     document.body.appendChild(reloadBtn);
 });
+
