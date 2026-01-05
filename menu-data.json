@@ -71,16 +71,6 @@
   },
   {
     "id": 9,
-    "title": "حلاوة المولد",
-    "description": "حلاوة المولد التقليدية المغطسة بالفول السوداني والسمسم. حلوة مصري أصيل.",
-    "price": "٣٠ ج.م",
-    "category": "desserts",
-    "tag": "حلويات",
-    "tagType": "popular",
-    "image": "https://i.ibb.co/wrKwXT04/x.jpg"
-  },
-  {
-    "id": 10,
     "title": "كشري باللحم المفروم",
     "description": "كشري مميز مع لحم مفروم مطهو بصلصة الطماطم والتوابل الخاصة",
     "price": "٥٠ ج.م",
@@ -90,7 +80,7 @@
     "image": "https://i.ibb.co/7dnkVP5T/x.jpg"
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "طبق بصل مقلي إضافي",
     "description": "بصل مقلي مقرمش يمكن إضافته لأي وجبة كشري",
     "price": "١٠ ج.م",
@@ -100,7 +90,7 @@
     "image": "https://i.ibb.co/NMNWL9B/x.jpg"
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "عصير ليمون بالنعناع",
     "description": "عصير ليمون طازج مع أوراق النعناع المنعشة",
     "price": "١١٠٥ ج.م",
@@ -110,7 +100,7 @@
     "image": "https://i.ibb.co/6czhqrG6/x.jpg"
   },
   {
-    "id": 13,
+    "id": 12,
     "title": "كيس عيش محمص",
     "description": "قطع خبز شامي محمصة ومتبلة بخلطة التحرير الخاصة، مقرمشة ومثالية بجانب طبق الكشري.",
     "price": "١٠ ج.م",
@@ -120,7 +110,7 @@
     "image": "https://i.ibb.co/ksP0zjLP/x.jpg"
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "طبق أرز بلبن عادي",
     "description": "أرز بلبن غني وكريمي، محضر على الطريقة التقليدية ومبرد ليقدم تحلية مثالية بعد الكشري.",
     "price": "٢٠ ج.م",
@@ -130,7 +120,7 @@
     "image": "https://i.ibb.co/7tVPWCT1/x.jpg"
   },
   {
-    "id": 15,
+    "id": 14,
     "title": "طبق أرز بلبن فرن",
     "description": "أرز بلبن مطهو داخل الفرن ليأخذ طبقة وجه ذهبية محمرة وطعم غني ومميز.",
     "price": "٢٥ ج.م",
@@ -140,7 +130,7 @@
     "image": "https://i.ibb.co/ZpRtXvNW/x.jpg"
   },
   {
-    "id": 16,
+    "id": 15,
     "title": "مياه معدنية",
     "description": "زجاجة مياه معدنية طبيعية باردة ومنعشة.",
     "price": "٧ ج.م",
@@ -150,7 +140,7 @@
     "image": "https://png.pngtree.com/png-vector/20240913/ourlarge/pngtree-mineral-water-bottle-png-image_13600124.png"
   },
   {
-    "id": 17,
+    "id": 16,
     "title": "بيبسي كانز",
     "description": "عبوة بيبسي كولا بابلز المنعشة، الحجم القياسي.",
     "price": "١٥ ج.م",
@@ -160,7 +150,7 @@
     "image": "https://cdn.mafrservices.com/pim-content/EGY/media/product/626935/1728898803/626935_main.jpg?im=Resize=400"
   },
   {
-    "id": 18,
+    "id": 17,
     "title": "كنافة بالجبن",
     "description": "كنافة هشة محشوة بالجبن البلدي الطري",
     "price": "١٠٠ ج.م",
@@ -170,6 +160,7 @@
     "image": "https://i.ibb.co/chDsSpZ0/x.jpg"
   }
 ]
+
 
 
 
